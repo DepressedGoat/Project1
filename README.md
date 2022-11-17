@@ -1,2 +1,2 @@
-# Project1
-First assignment for class "Αρχιτεκτονική Υ/Η"
+# gem5 Projects 
+Assignments for class "Αρχιτεκτονική Υ/Η"
