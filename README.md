@@ -35,7 +35,7 @@
 **γ)** Γενικά ισχυέι ότι sim_insts(simluated instructions) <= sim_ops(simulated operations). Στο συγκεκριμένο παράδειγμα έχω πως sim_insts=5027 και sim_ops=5831.
 Αυτή η διαφόρα οφείλεται στο γεγονός ότι το "committed_insts is the architectural number of assembly instructions executed" (δεν κάνω μετάφραση για πιθανόν παρερμηνείες) ενώ "commmittedOps is the number of micro-operations", καθε instruction μπορεί να έχει πολλαπλά micro-operations γι' αυτο και ο αριθμός των micro-operations είναι πάντα μεγαλύτερος ή ίσος.
 
-δ) ?
+**δ)** Η L2 προσπελάστηκε συνολικά 929 φορές, όπως και αναγράφεται στο αρχείο stats.txt στο system.membus.pkt_count_system.cpu_cluster.l2.mem_side::total
 
 ### Eρώτημα 3:
 
